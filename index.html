@@ -232,7 +232,7 @@
 
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-<script src="js/swiper-bundle.min.js?d41d8cd98f00b204e9800998ecf8427e"></script>
+<!--<script src="js/swiper-bundle.min.js?d41d8cd98f00b204e9800998ecf8427e"></script>-->
 <script>
     "use strict";function addanimation1(){setTimeout(function(){document.getElementById("video-container").style.display="block"},1500),setTimeout(function(){document.getElementById("lines").style.display="block"},1e3)}function addanimation2(){document.getElementById("titles-2").style.display="block",document.getElementById("continue-2").style.display="block"}function addanimation3(){document.getElementById("slide3video").style.display="block";var e=document.getElementById("slide3video");e.currentTime=0,e.play(),document.getElementById("titles-3").style.display="block",document.getElementById("button-3-slide").style.display="block"}function addanimation4(){document.getElementById("title-4").style.display="block",setTimeout(function(){document.getElementById("click-area").style.display="block"},600)}var swiper=new Swiper(".swiper-container",{speed:500,effect:"cube",grabCursor:!0,cubeEffect:{shadow:!1,slideShadows:!1},on:{init:function(){addanimation1()}}});function nextslideto(){swiper.slideNext()}function prevslideto(){swiper.slidePrev()}swiper.on("slideChangeTransitionEnd",function(){0===this.activeIndex&&addanimation1(),1===this.activeIndex&&addanimation2(),3===this.activeIndex&&addanimation4()}),swiper.on("slideChangeTransitionStart",function(){2===this.activeIndex&&addanimation3(),3===this.activeIndex&&(addanimation3(),document.getElementById("click_area").style.display="none")});
 </script>
